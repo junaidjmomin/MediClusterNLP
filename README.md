@@ -39,7 +39,7 @@ These instructions will guide you through setting up the project and running it 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YourUsername/Medical-Record-Clustering-NLP.git
+   git clone https://github.com/junaidjmomin/Medical-Record-Clustering-NLP.git
    ```
 2. Navigate to the project directory:
    ```bash
