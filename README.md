@@ -1,74 +1,96 @@
-# MediClusterNLP
 
 
-# Medical Health Record Clustering using NLP
+# Medical Record Clustering with NLP
 
-![image](https://github.com/junaidjmomin/MediClusterNLP/assets/121440706/6042f690-a08a-46c6-9151-22e86dbd3df4)
+![image](https://github.com/junaidjmomin/MediClusterNLP/assets/121440706/58b25665-47a9-4404-98fa-90c3925aa1fd)
+ 
+*A visual representation of clustering in action.*
 
-
-This project aims to cluster medical health records using advanced natural language processing techniques. By categorizing health records into meaningful clusters, healthcare professionals can gain better insights, improve patient care, and optimize medical processes.
+This repository contains a demonstration of clustering medical health records using Natural Language Processing (NLP). By leveraging techniques like TF-IDF for vectorization and KMeans for clustering, we aim to categorize similar health records, offering a glimpse into potential insights and patterns in medical data.
 
 ## Table of Contents
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Methodology](#methodology)
+  - [Data Vectorization](#data-vectorization)
+  - [Clustering](#clustering)
+  - [Visualization](#visualization)
+- [Future Work](#future-work)
 - [Contributions](#contributions)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 
-- **Efficient Clustering**: Uses state-of-the-art NLP models to effectively cluster medical records.
-- **Data Preprocessing**: In-built data cleaning and preprocessing tailored for medical records.
-- **Visualization Tools**: Tools to visualize clusters and gain insights from the data.
-- **Scalable**: Designed to handle a large number of health records.
+- **TF-IDF Vectorization**: Convert medical records into numerical vectors that capture the semantic essence of each record.
+- **KMeans Clustering**: Categorize medical records into distinct clusters based on their content.
+- **PCA Visualization**: 2D visualization of clusters, providing a spatial representation of the dataset.
 
 ## Getting Started
 
-These instructions will guide you through setting up the project and running it on your local machine for development and testing purposes.
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
-## Prerequisites
+### Prerequisites
 
 - Python 3.x
 - Pip (Python package manager)
 
-## Installation
+### Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/junaidjmomin/Medical-Record-Clustering-NLP.git
+   git clone https://github.com/junaidjmomin/Medical-Record-Clustering-NLP-Demo.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Medical-Record-Clustering-NLP
+   cd Medical-Record-Clustering-NLP-Demo
    ```
 3. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
+### Usage
 
-1. After installation, run the main script:
+1. Run the main script:
    ```bash
-   python main.py
+   python medical_record_demo.py
    ```
 
-2. Follow on-screen instructions to input medical records and view clustering results.
+2. View the visualization and clustering results in the terminal.
+
+## Methodology
+
+### Data Vectorization
+
+Medical records are converted into numerical vectors using the TF-IDF (Term Frequency-Inverse Document Frequency) technique. This method emphasizes the importance of specific terms in each record relative to their occurrence in the entire dataset.
+
+### Clustering
+
+KMeans clustering categorizes the vectorized records into distinct groups. For this demo, we've chosen two clusters, but this can be adjusted based on the nature and variety of the dataset.
+
+### Visualization
+
+Post clustering, we employ PCA (Principal Component Analysis) for dimensionality reduction, allowing us to visualize the clusters in a 2D space. Each point in the visualization represents a medical record, and the color denotes the cluster it belongs to.
+
+## Future Work
+
+- **Expand Dataset**: Incorporate a larger, real-world dataset for more meaningful clustering results.
+- **Advanced Vectorization**: Explore word embeddings like Word2Vec or FastText for richer semantic representation.
+- **Alternative Clustering Methods**: Experiment with density-based clustering methods like DBSCAN or HDBSCAN.
+- **Interactive Visualization**: Integrate tools like Plotly or Bokeh for interactive cluster visualization.
 
 ## Contributions
 
-We welcome contributions! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to contribute.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/junaidjmomin/Medical-Record-Clustering-NLP-Demo/issues).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Acknowledgments
+---
 
-- Thanks to the healthcare professionals who provided insights and feedback.
-- Acknowledgment to open-source libraries and tools used.
-- Special thanks to the community for contributions and suggestions.
+*Note*: Ensure to replace placeholders like `YourUsername` with actual values specific to your GitHub profile. You can also consider adding a banner image at the top of the README for better visual appeal.
