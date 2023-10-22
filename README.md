@@ -42,11 +42,11 @@ These instructions will help you set up the project on your local machine for de
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/junaidjmomin/Medical-Record-Clustering-NLP-Demo.git
+   git clone https://github.com/junaidjmomin/MediClusterNLP.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Medical-Record-Clustering-NLP-Demo
+   cd MediClusterNLP
    ```
 3. Install the required packages:
    ```bash
