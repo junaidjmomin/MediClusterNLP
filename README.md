@@ -75,7 +75,8 @@ KMeans clustering categorizes the vectorized records into distinct groups. For t
 ### Visualization
 
 Post clustering, we employ PCA (Principal Component Analysis) for dimensionality reduction, allowing us to visualize the clusters in a 2D space. Each point in the visualization represents a medical record, and the color denotes the cluster it belongs to.
-![image](https://github.com/junaidjmomin/MediClusterNLP/assets/121440706/14b310ad-3ecc-471c-b8c6-ee00f1d3e7da)
+
+![image](https://github.com/junaidjmomin/MediClusterNLP/assets/121440706/64d45b3d-b826-4f49-a05f-c616507d0250)
 
 
 ## Future Work
