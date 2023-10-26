@@ -72,6 +72,7 @@ Medical records are converted into numerical vectors using the TF-IDF (Term Freq
 ### Clustering
 
 KMeans clustering categorizes the vectorized records into distinct groups. For this demo, we've chosen two clusters, but this can be adjusted based on the nature and variety of the dataset.
+
 ![image](https://github.com/junaidjmomin/MediClusterNLP/assets/121440706/5da379d4-5566-4027-ad6d-47d5cb222226)
 
 
