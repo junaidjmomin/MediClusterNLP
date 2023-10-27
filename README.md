@@ -21,7 +21,7 @@ This repository contains a demonstration of clustering medical health records us
   - [Visualization](#visualization)
 - [Future Work](#future-work)
 - [Contributions](#contributions)
-- [Project Benefits](#project benefits)
+- [Project Benefits] (#project-benefits)
 - [License](#license)
 
 ## Features
